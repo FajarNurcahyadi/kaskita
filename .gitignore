@@ -1,0 +1,25 @@
+# Rahasia - jangan pernah di-commit
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Backend
+backend/node_modules/
+backend/uploads/
+
+# Local source backup
+lib_backup/
+
+# Flutter
+flutter_app/build/
+flutter_app/.dart_tool/
+flutter_app/.flutter-plugins*
+flutter_app/.packages
+flutter_app/pubspec.lock

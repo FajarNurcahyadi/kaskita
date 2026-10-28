@@ -1,0 +1,34 @@
+name: kaskita
+description: KasKita - aplikasi nabung dan komunitas.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  http: ^1.2.1
+  shared_preferences: ^2.2.3
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo_kaskita.png
+    - assets/images/cat_login.png
+    - assets/images/google.png
+    - assets/images/apple.png
+    - assets/images/facebook.png
+    - assets/images/phoenix.png
+    - assets/images/forgot.png
+    - assets/images/inbox.png
+    - assets/images/card_postal.png
+    - assets/images/join_success.png
